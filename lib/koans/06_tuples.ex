@@ -4,7 +4,7 @@ defmodule Tuples do
   @intro "Tuples"
 
   koan "Tuples can contain different things" do
-    assert {:a, 1, "hi"} == ___
+    assert {:a, 1, "hi"} == {:a, 1, "hi"}
   end
 
   koan "Tuples have a size" do
